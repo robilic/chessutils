@@ -1,0 +1,17 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{ title }} - Chesspug</title>
+    {% else %}
+    <title>Chesspug</title>
+    {% endif %}
+    <link rel="stylesheet" href="/static/chesspug.css">
+    <script type="text/javascript" src="/static/chesspug.js"></script>
+  </head>
+  <body>
+    <div>Chesspug: <a href="/">Home</a></div>
+    <hr>
+    {% block content %}{% endblock %}
+  </body>
+</html>
+
