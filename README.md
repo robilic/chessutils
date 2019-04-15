@@ -5,4 +5,4 @@ Chess Implementation in Python
 
 Web interface for for moving pieces around, checking valid moves for pieces, tests for check.
 
-Missing: En Pessant, Castling, Checkmate test
+Missing: En Passant, Castling, Checkmate test
